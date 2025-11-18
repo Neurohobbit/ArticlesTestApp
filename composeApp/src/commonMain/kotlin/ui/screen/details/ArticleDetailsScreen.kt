@@ -19,14 +19,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavHostController
 import org.koin.compose.viewmodel.koinViewModel
 import util.extensions.toRichHtmlString
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ArticleDetailsScreen(
-    navController: NavHostController,
     articleID: String?
 ) {
 

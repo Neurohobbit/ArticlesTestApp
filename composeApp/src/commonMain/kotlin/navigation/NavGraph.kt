@@ -51,7 +51,6 @@ fun NavGraph(navController: NavHostController) {
             val articleID =
                 navController.previousBackStackEntry?.savedStateHandle?.get<String>(ARTICLE_ID)
             ArticleDetailsScreen(
-                navController,
                 articleID
             )
         }
