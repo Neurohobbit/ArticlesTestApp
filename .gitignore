@@ -16,3 +16,14 @@ captures
 !*.xcodeproj/project.xcworkspace/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
+Pods/
+DerivedData/
+gitignore
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+*.dtyped_data
+xcuserdata/
+!default.xcworkspace
+!contents.xcworkspacedata
